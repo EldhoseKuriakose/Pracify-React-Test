@@ -1,0 +1,157 @@
+.footer-container {
+    height: 320px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+    hr {
+        width: 85vw;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+
+        .footer-left-side-content {
+            margin-left: 10vw;
+            width: 40vw;
+
+            .pracify {
+                width: 85px;
+                height: 27px;
+                font-family: Gilroy;
+                font-size: 27px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.7;
+                letter-spacing: normal;
+                text-align: left;
+                color: #323441;
+            }
+
+            p {
+                width: 434px;
+                height: 62px;
+                font-family: Muli;
+                font-size: 14px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.57;
+                letter-spacing: normal;
+                text-align: justify;
+                color: #323441;
+            }
+
+            .store-icons {
+                height: 80px;
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 10px;
+                position: relative;
+
+                .google-play-image {
+                    width: 152px;
+                    height: 60px;
+                    object-fit: contain;
+                }
+
+                .app-store-image {
+                    width: 122.1px;
+                    height: 40.8px;
+                    object-fit: contain;
+                    position: absolute;
+                    left: 200px;
+                    top: 20px;
+                }
+
+                img:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .vertical-line {
+            width: 10px;
+            height: 280px;
+            border-right: 1px solid #333e49;
+        }
+
+        .footer-right-side-content {
+            display: flex;
+            flex-direction: row;
+            width: 40vw;
+            justify-content: space-around;
+            margin-top: 50px;
+
+            p {
+                font-family: Muli ExtraLight;
+                font-size: 14px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2.14;
+                letter-spacing: normal;
+                text-align: center;
+                color: #323441;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                    color: gray;
+                }
+                
+                &.special {
+                    font-family: Gilroy;
+                    font-size: 15px;
+                    font-weight: 800;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2;
+                    letter-spacing: 0.75px;
+                    text-align: center;
+                    color: #333e49;
+
+                    &:hover {
+                        cursor: text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        p {
+            font-family: Muli;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.29;
+            letter-spacing: normal;
+            color: #333e49;
+        }
+
+        .social-media-icons {
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+
+            img:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+    }
+}

@@ -1,14 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
-@import url(//db.onlinewebfonts.com/c/397a56821c43e85da7725a53cd51ec9b?family=Muli);
-
 .career-page-container {
+    display: flex;
+    flex-direction: column;
+
     .top-content {
-        width: 550px;
-        height: 200px;
-        position: absolute;
-        left: 34vw;
-        top: 20vh;
         text-align: center;
+        margin-top: 50px;
 
         .work-with-us-title {
             font-family: Gilroy;
@@ -35,17 +31,14 @@
     }
 
     .middle-content {
-        position: absolute;
-        width: 98vw;
-        height: 528px;
-        margin-top: 50px;
+        margin-top: 60px;
         background-image: linear-gradient(to bottom, #fffbfa, #fffcfb 50%, #ffffff);
         top: 450px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 57px;
-        padding-right: 20px;
+        padding-right: 60px;
 
         p {
             width: 548px;

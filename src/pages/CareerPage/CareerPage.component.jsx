@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header.component';
 import CustomButton from '../../components/CustomButton/CustomButton.component';
+import Footer from '../../components/Footer/Footer.component';
 import ReactLogo from '../../assets/career-middle-content.svg';
 import './CareerPage.styles.scss';
 
@@ -23,6 +24,7 @@ const CareerPage = () => (
                 <img src={ReactLogo} alt="career" />
             </div>
         </div>
+        <Footer />
     </div>
 );
 

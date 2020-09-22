@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#333e49;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Icon_feather-instagram" transform="translate(-2 -2)">
+        <path id="Path_3108" d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3z" class="cls-1"/>
+        <path id="Path_3109" d="M19.226 15.007a3.6 3.6 0 1 1-3.033-3.033 3.6 3.6 0 0 1 3.033 3.033z" class="cls-1" transform="translate(-3.626 -3.574)"/>
+    </g>
+</svg>
