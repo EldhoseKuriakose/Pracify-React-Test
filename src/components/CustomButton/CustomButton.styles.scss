@@ -39,5 +39,29 @@
             background-color: white;
             border: 1px solid #ea626b;
         }
+
+        &.contact-us-button {
+            width: 199px;
+            height: 55px;
+            border-radius: 8px;
+            margin-top: 20px;
+            background-color: #ffffff;
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: center;
+            color: #373a63;
+
+            &:hover {
+                cursor: pointer;
+                color: #ffffff;
+                background-color: #373a63;
+                border: 1px solid #ffffff;
+            }
+        }
     }
 }
