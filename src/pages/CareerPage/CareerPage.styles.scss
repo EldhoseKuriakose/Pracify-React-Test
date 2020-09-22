@@ -1,0 +1,77 @@
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+@import url(//db.onlinewebfonts.com/c/397a56821c43e85da7725a53cd51ec9b?family=Muli);
+
+.career-page-container {
+    .top-content {
+        width: 550px;
+        height: 200px;
+        position: absolute;
+        left: 34vw;
+        top: 20vh;
+        text-align: center;
+
+        .work-with-us-title {
+            font-family: Gilroy;
+            font-size: 36px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.19;
+            letter-spacing: normal;
+            color: #333e49;
+        }
+    
+        .join-us-para {
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            color: #333e49;
+            margin-bottom: 50px;
+        }
+    }
+
+    .middle-content {
+        position: absolute;
+        width: 98vw;
+        height: 528px;
+        margin-top: 50px;
+        background-image: linear-gradient(to bottom, #fffbfa, #fffcfb 50%, #ffffff);
+        top: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 57px;
+        padding-right: 20px;
+
+        p {
+            width: 548px;
+            height: 303px;
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.94;
+            letter-spacing: normal;
+            text-align: left;
+            color: #333e49;
+            text-align: justify;
+            margin-left: 8vw;
+        }
+
+        .image-container {
+            width: 615px;
+            height: 375px;
+            object-fit: contain;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

@@ -20,6 +20,26 @@
 
         &.colour-black {
             background-color: #323441;
+
+            &:hover {
+                color: black;
+                background-color: white;
+                border: 1px solid black;
+            }
+        }
+
+        &.size-large {
+            width: 174px;
+            height: 70px;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: #ea626b;
+            background-color: white;
+            border: 1px solid #ea626b;
         }
     }
 }

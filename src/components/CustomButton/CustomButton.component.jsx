@@ -1,9 +1,14 @@
 import React from 'react';
 import './CustomButton.styles.scss';
 
-const CustomButton = ({ content, colour }) => (
+const CustomButton = ({ content, colour, size }) => (
     <div className="custom-button-container">
-        <button className={`${colour == "black" ? "colour-black": ''}`}>
+        <button
+            className={`
+                ${colour === "black" ? "colour-black": ''}
+                ${size === "large" ? "size-large" : ''}
+            `}
+        >
             {content}
         </button>
     </div>
