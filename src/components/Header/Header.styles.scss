@@ -1,0 +1,30 @@
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+
+.header-container {
+    .pracify-title {
+        width: 120px;
+        height: 38px;
+        font-family: Gilroy;
+        font-size: 38px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.45;
+        letter-spacing: normal;
+        text-align: center;
+        color: #323441;
+        margin-left: 106px;
+        margin-top: 36px;
+    }
+
+    .button-container {
+        width: 365px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        top: 22px;
+        left: 75vw;
+    }
+}

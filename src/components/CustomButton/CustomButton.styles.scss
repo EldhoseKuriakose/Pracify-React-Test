@@ -1,0 +1,25 @@
+@import url(//db.onlinewebfonts.com/c/f7f214774abe968ce98b8cb68c0ffc13?family=Muli+ExtraLight);
+
+.custom-button-container {
+    button {
+        width: 171px;
+        height: 60px;
+        border-radius: 12px;
+        background-color: #ea626b;
+        border: none;
+        outline: none;
+        font-family: Muli ExtraLight;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.47;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+
+        &.colour-black {
+            background-color: #323441;
+        }
+    }
+}
